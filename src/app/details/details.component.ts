@@ -28,7 +28,7 @@ export class DetailsComponent {
     this.housingLocation = this.housingService.getHousingLocationById(housingLocationId);
   }
 
-  submitAppliation() {
+  submitApplication() {
     this.housingService.submitApplication(
       this.applyForm.value.firstName ?? '',
       this.applyForm.value.lastName ?? '',
